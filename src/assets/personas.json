@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "nombre": "Daniel",
+        "apellido": "de Almeida",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Dario",
+        "apellido": "Riva",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Diego",
+        "apellido": "Pellegrini",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Federico",
+        "apellido": "Musso",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Laura",
+        "apellido": "Rodriguez",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Lautaro Ariel",
+        "apellido": "Basanta",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Manuel",
+        "apellido": "Castello",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Paula",
+        "apellido": "Barrios",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Rocio",
+        "apellido": "Diaz",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "Sebastian",
+        "apellido": "Parasis",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 11,
+        "nombre": "Walter",
+        "apellido": "Marcote",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 12,
+        "nombre": "Guillermo",
+        "apellido": "Barcarcel",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 13,
+        "nombre": "Esteban",
+        "apellido": "Gawron",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 14,
+        "nombre": "Enzo",
+        "apellido": "Peddini",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 15,
+        "nombre": "Andrea",
+        "apellido": "Russo",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 16,
+        "nombre": "Adrian",
+        "apellido": "Zarate",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 17,
+        "nombre": "Melisa",
+        "apellido": "Yune",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    },
+    {
+        "id": 18,
+        "nombre": "Nicolas",
+        "apellido": "Russmann",
+        "sector": {
+            "id": 2,
+            "nombre": "COMERCIAL"
+        }
+    },
+    {
+        "id": 19,
+        "nombre": "Galo",
+        "apellido": "Trillo",
+        "sector": {
+            "id": 1,
+            "nombre": "RRHH"
+        }
+    },
+    {
+        "id": 20,
+        "nombre": "Diego",
+        "apellido": "Pellegrini",
+        "sector": {
+            "id": 3,
+            "nombre": "QA"
+        }
+    }  
+]

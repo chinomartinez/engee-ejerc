@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "fechaIngreso": "24/04/2022",
+        "horaIngreso": "13:20",
+        "renaper" : {
+            "id": 1,
+            "nombre": "Agustin",
+            "apellido": "Martinez",
+            "dni": "12345671"
+        },
+        "visitaA": {
+            "id": 1,
+            "nombre": "Daniel",
+            "apellido": "de Almeida",
+            "sector": {
+                "id": 1,
+                "nombre": "RRHH"
+            }            
+        }
+    },
+    {
+        "id": 2,
+        "fechaIngreso": "25/04/2022",
+        "horaIngreso": "18:25",
+        "renaper" : {
+            "id": 1,
+            "nombre": "Agustin",
+            "apellido": "Martinez",
+            "dni": "12345671"
+        },
+        "visitaA": {
+            "id": 3,
+            "nombre": "Diego",
+            "apellido": "Pellegrini",
+            "sector": {
+                "id": 2,
+                "nombre": "COMERCIAL"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "fechaIngreso": "26/04/2022",
+        "horaIngreso": "22:20",
+        "renaper" : {
+            "id": 1,
+            "nombre": "Agustin",
+            "apellido": "Martinez",
+            "dni": "12345671"
+        },
+        "visitaA": {
+            "id": 5,
+            "nombre": "Laura",
+            "apellido": "Rodriguez",
+            "sector": {
+                "id": 3,
+                "nombre": "QA"
+            }
+        }
+    }
+]
