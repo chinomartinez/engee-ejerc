@@ -1,0 +1,84 @@
+<div class="container-fluid mb-4">
+    <div class="bg-light p-3 mt-3 mb-2 border-bottom">
+        <h5>Datos de la visita</h5>
+    </div>
+    <div class="container-fluid">
+        <form [formGroup]="formVisita" (ngSubmit)="onSubmit($event)">
+            <div class="row mb-3">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="dni" class="form-label fw-bold">DNI</label>
+                        <div class="row">
+                            <div class="col-8">
+                                <input type="number" min="1" class="form-control" id="dni" formControlName="dni">
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-warning"
+                                    (click)="onClickConsultarDNI()">Consultar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Nombre y Apellido</label>
+                        <div class="d-flex align-items-center">
+                            <p class="fw-normal">{{renaper.nombre}} {{renaper.apellido}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="nroTarjIngreso" class="form-label fw-bold">Nro. de Tarjeta de Ingreso</label>
+                            <input type="number" min="1" max="1000" class="form-control" id="nroTarjIngreso"
+                                formControlName="nroTarjIngreso">
+                        </div>
+                        <div class="col-6">
+                            <label for="fechaIng" class="form-label fw-bold">Fecha de Ingreso</label>
+                            <div class="d-flex align-items-center">
+                                <p class="fw-normal">{{fechaHoy}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label for="horaIng" class="form-label fw-bold">Hora de Ingreso</label>
+                    <div class="d-flex align-items-center">
+                        <p class="fw-normal">{{horaActual}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-6">
+                    <label for="sector" class="form-label fw-bold">Sector</label>
+                    <select class="form-select" id="sector" formControlName="sector" (change)="onChangeSector($event)">
+                        <option value=""></option>
+                        <option *ngFor="let sector of setSectores()" value="{{sector.id}}">{{sector.nombre}}</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label for="visitaA" class="form-label fw-bold">Visita a</label>
+                    <select class="form-select" id="visitaA" formControlName="visitaA">
+                        <option value=""></option>
+                        <option *ngFor="let persona of personas" value="{{persona.id}}">{{persona.nombre}}
+                            {{persona.apellido}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <!-- <div class="alert alert-danger me-3" role="alert">
+                    Se requiere formulario completo
+                </div> -->
+                <div class="">
+                    <button class="btn btn-warning me-md-2 p-3" type="submit">Ingresar</button>
+                </div>
+            </div>            
+        </form>
+    </div>
+</div>
+
+<table-ingreso [renaper]="renaper"></table-ingreso>

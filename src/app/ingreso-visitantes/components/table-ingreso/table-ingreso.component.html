@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="bg-light p-3 mt-3 mb-4 border-bottom">
+        <h5>Historial de la visita</h5>
+    </div>
+
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Hora</th>
+                <th scope="col">Visitó a</th>
+            </tr>
+        </thead>
+        <tbody (click)="onClickRow($event)">
+            <tr *ngFor="let histo of historial; let i = index;">
+                <td scope="row">{{i + 1}}</td>
+                <td scope="row">{{histo.fechaIngreso || ""}}</td>
+                <td scope="row">{{histo.horaIngreso || ""}}</td>
+                <td scope="row">{{histo.visitaA?.nombre || ""}} {{histo.visitaA?.apellido  || ""}}</td>
+                <td scope="row">
+                    <button class="btn btn-danger btn-delete" type="button" id="{{histo.id}}">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
